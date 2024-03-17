@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="board.css">
+    <title>Memory Game</title>
+</head>
+<body>
+   <div class="container">
+    
+        <div class="pre-game">
+            <h2>Memory Game</h2>
+            <input type="text" id="Name" placeholder="Enter your name" maxlength="15"><br>
+            <input type="number" id="Amount" placeholder="how many pairs?(max 30)" min="1" max="30" >
+            <button id="submit" >start</button>
+        </div>
+        <div class="game" >
+            <div class="info">
+                <div id="timer"></div>
+                <p id="player-name">Player:</p>
+             </div>
+            <div class="tiles">
+                <div class="tile"><img src="./images/beitar.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+</body>
+<script src="board.js"></script>
+</html>
